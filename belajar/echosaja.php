@@ -8,7 +8,7 @@ $buah = array (
 <!DOCTYPE>
 <html>
 <head>
-	<title>Belajar Echo</title>
+	<title>Belajar Echo dari Laptop</title>
 </head>
 <body>
 	<?php 
