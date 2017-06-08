@@ -9,7 +9,7 @@ class BerandaUI extends View
 	
 	public function tampilLengkap()
 	{
-		include_once 'pages/berandab.php';
+		include_once 'pages/beranda.php';
 		$this->end();
 	}
 }
