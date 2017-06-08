@@ -43,10 +43,13 @@ class BeritaUI extends View
 		
 		$this->end();
 	}
+	public function tampilFormEdit(){
 
+	}
+	
+	public function aksiUbahBerita(){
+
+	}
 }
-
-
-
 
  ?>

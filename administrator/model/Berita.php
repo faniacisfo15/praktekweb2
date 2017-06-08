@@ -19,13 +19,7 @@ class Berita extends Model{
 		return $data;
 
 	}
-	public function ambilBerita()
-	{
-		$query = $this->db->prepare("SELECT * FROM berita");
-    		$query->execute();
-    		$data = $query->fetchAll();
-    		return $data;
-	}
+	
 	public function setBerita($tanggal,$judul,$isi,$id_kategori)
 	{
 		try
@@ -43,6 +37,14 @@ class Berita extends Model{
 		   echo $e->getMessage(); 
 		   return false;
 		  }
+
+	public function ambilBeritaSpesifik($id){
+
+	}
+	
+	public function UbahBerita($id_berita,$tanggal,$judul,$isi,$id_kategori){
+
+	}
 
 } 
 	

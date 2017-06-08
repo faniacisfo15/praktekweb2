@@ -24,5 +24,14 @@ class BeritaManager extends Controller
 		$pesan = $mberita->setBerita($tanggal,$judul,$isi,$id_kategori);
 		return $pesan;
 	}
+	public function getDataUntukPerubahan(){
+
+		#code . . .
+	}
+
+	public function UbahBerita(){
+
+		#code . . .
+	}
 }
  ?>
